@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	font-family: Sans-serif, Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.fx{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.voucher{
+	flex:0 0 33.33%;
+}
+.vouchers{
+	margin: 40px;
+}

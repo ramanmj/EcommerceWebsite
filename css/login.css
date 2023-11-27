@@ -1,0 +1,174 @@
+
+*{
+	box-sizing: border-box;
+	font-family: Sans-serif, Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;	
+
+}
+
+img{
+	height: 100%;
+	width: auto;
+	vertical-align: top;
+}
+
+header{	
+	height: 110px;
+	background-color: white;
+
+}
+
+.logo a img{
+	display: block;
+		margin-left: auto;
+  	margin-right: auto;
+
+}
+
+
+fieldset{
+	width:315px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	padding-top: 15px;
+}
+
+.body{
+	background-color:white; 
+	box-shadow:1px 5px 3px #e0e0e0;
+}
+
+.logo{
+	height: 100%;
+}
+.a-form{
+	height:350px;
+	font:bold 15px sans-serif ;
+	
+}
+
+.login1{
+	margin:10px 0;
+
+}
+
+.button,.terms,.forgot{
+	margin:11px 0 11px 0;
+}
+
+.terms span{
+	font:bold 12px sans-serif;
+}
+.email{
+	font:bold 13px sans-serif ;
+}
+
+input[type=text],input[type=password]{
+	width: 100%;
+	height: 30px;
+	 /* @include transition(all 0.30s ease-in-out); */
+}
+
+input[type=button]{
+	width: 100%;
+	height: 30px;
+	background-color: #4caf50;
+	border-radius: 3px;
+    border: 1px solid #3e5437;
+
+}
+
+.login2 button{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 313px;
+    height: 30px;
+    margin-top:10px;
+    background-color: #4caf50;
+    border-radius: 3px;
+    border: 1px solid #3e5437;
+   
+}
+.login2{
+	  padding-bottom: 20px;
+}
+
+.new{
+	margin-top: 11px;
+}
+
+.new span{
+	display: block;
+	text-align: center;
+}
+
+/*.new span:before{
+	display: block;
+	content: '';
+	height: 2px;
+	width: 7px;
+	color: gray;
+}*/
+
+.forgot a,.terms a{
+	text-decoration: none;
+	color: #5d5ca2;
+
+}
+
+footer{
+	
+	height: 30%;
+}
+.helpa{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer a{
+	text-decoration: none;
+	color: #5d5ca2;
+}
+
+.copyright span{
+	display: block;
+	text-align: center;
+	font-size:10px;
+}
+
+.login2 button:hover{
+	background-color: #337936;
+}
+
+input[type=button]:hover{
+	background-color:#337936; 
+}
+
+.help a:hover,.terms a:hover ,.forgot a:hover{
+	color:#19691c;
+	text-decoration:underline;
+}
+
+input[type=text]:focus,input[type=password]:focus{
+	box-shadow: 0px 0px 6px rgba(76,175,80,1);
+	outline: none;
+	border:1px solid #4caf50;
+	
+}
+
+label[for=password]{
+	font: bold 13px sans-serif;
+}
+
+.login2 a{
+	text-decoration: none;
+}

@@ -1,0 +1,36 @@
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+body{
+	font:16px/1.5  'Poppins', sans-serif;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+	vertical-align: top;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+	 -webkit-transition:color .3s,background .3s, border .3s,border-color .3s;
+    -o-transition:color .3s,background .3s, border .3s,border-color .3s;
+    transition:color .3s,background .3s, border .3s,border-color .3s;
+
+}
+
+
+.tab-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.product-container{
+	flex:0 0 33.33%;
+}

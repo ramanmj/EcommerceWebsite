@@ -1,0 +1,104 @@
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+body{
+	font:16px/1.5  'Poppins', sans-serif;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+	vertical-align: top;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+	 -webkit-transition:color .3s,background .3s, border .3s,border-color .3s;
+    -o-transition:color .3s,background .3s, border .3s,border-color .3s;
+    transition:color .3s,background .3s, border .3s,border-color .3s;
+
+}
+
+
+a:hover{
+	/* text-decoration: underline; */
+}
+
+h2
+{
+	font:700 33px "Playfair Display",serif;
+}
+
+h1,
+h3,
+h4{
+	font-family:"Playfair Display",serif;	 
+}
+
+.latest-products{
+	padding: 30px;
+}
+
+.second-nav{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-bottom: 1px solid #a29696;
+}
+
+.s-heading h2{
+		font-size: 44px;
+
+	}
+
+.s-h-1 h2{
+	
+	margin:0 0 8px 0;
+}
+
+
+.latest-categories li {
+	list-style-type: none;
+	padding: 5px;
+
+}
+
+.latest-categories {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;	
+	padding: 0px;
+}
+
+.latest-categories a{
+	color: #b9b3b3;
+}
+
+.tab0{
+	display: none;
+}
+
+.row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col{
+		flex:0 0 33.33%;
+	}
+
+.col-contnet .right-cap{
+	float: right;
+}
